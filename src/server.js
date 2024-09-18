@@ -1,4 +1,4 @@
-const Port = process.env.PORT || 10000;
+const PORT = process.env.PORT || 10000;
 
 const app = require("./app");
 const knex = require("./db/connection");
